@@ -1,0 +1,21 @@
+mysql:
+  host: "192.168.10.21"
+  port: 3306
+  user: "wms_backup"
+  password: "CHANGE_ME"
+  database: "wms"
+
+diagnostic:
+  dc_servers:
+    - "192.168.10.10"
+    - "192.168.10.11"
+
+audit:
+  default_network: "192.168.10.0/24"
+  eol_reference_source: "https://endoflife.date"
+  eol_reference_date: "2025-03-01"
+
+output:
+  base_dir: "./output"
+  json_dir: "./output/json"
+  reports_dir: "./output/reports"
