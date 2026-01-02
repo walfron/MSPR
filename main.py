@@ -1,4 +1,4 @@
-from ntl_systoolbox.cli import main_menu
+from modules import *
 
 if __name__ == "__main__":
     main_menu()

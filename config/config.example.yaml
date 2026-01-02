@@ -1,5 +1,5 @@
 mysql:
-  host: "192.168.10.21"
+  host: "10.0.2.2"
   port: 3306
   user: "wms_backup"
   password: "CHANGE_ME"
