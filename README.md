@@ -28,4 +28,8 @@ Outil en ligne de commande pour l'exploitation de l'infrastructure de NordTransi
 ## Exécution
 
 ```bash
+# installer les requirements
+pip install -r requirements.txt
+
+# executer le script
 python main.py
