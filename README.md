@@ -28,6 +28,10 @@ Outil en ligne de commande pour l'exploitation de l'infrastructure de NordTransi
 ## Exécution
 
 ```bash
+
+# cloner le repository (projet) sur votre machine avec git
+git clone https://github.com/walfron/MSPR.git
+
 # installer les requirements
 pip install -r requirements.txt
 
